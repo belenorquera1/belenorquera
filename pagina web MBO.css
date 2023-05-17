@@ -1,0 +1,118 @@
+
+body{
+    padding:0%;
+    margin: 0%;
+    background-color: #fdc9d4;
+
+}
+.navBar {
+    background-color:#f8d8de;
+    padding: 1em 0 0 1em;
+}
+
+
+.logo {
+    font-size: 0em;
+    margin: 0em;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap ;
+    justify-content: right;
+}
+
+.opcionMenu{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2em;
+    padding: .5em;
+    text-transform:uppercase;
+}
+
+.opcionMenu:hover {
+    background-color:#fdc9d4 ;
+}
+
+.enlace:link, .enlace:visited, .enlace:active {
+    color:white;
+    text-decoration: none; 
+}
+
+.cuerpoPrincipal{
+    background-color: #f8d8de;
+    width: 1px;
+    height:512px; 
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+#img {
+    margin: 0%;
+    padding: 0%;
+height: 30cm
+widght:20cm
+}
+
+ /* *************************   TIENDA   *************************** */
+ 
+ .grupoTarjetas {
+    flex:wrap;
+    padding: 2cm;
+
+    
+ }
+ 
+ .cuerpoPrincipal{
+    background-color:#fdc9d4;
+    height: fit-content;
+ }
+
+
+
+ .tarjeta {
+    width: 35em;
+    padding:3em;
+    margin: 2em;
+    background-color:white;
+    box-shadow:2px 2px 2px #f9f5f6;
+    transition: box-shadow .2s;
+    border-radius: 5px
+    
+ }
+
+ .tarjeta:hover {
+    box-shadow: 6px 6px 10px color:#fdc9d4;
+ }
+
+.foto {
+    width: 100%;
+}
+
+.articulo {
+    text-align: center;
+    margin: 0%;
+    text-shadow: #fdc9d4;
+}
+
+
+.categoria{
+    text-align: center;
+    margin: 0%;
+}
+
+.precio {
+    text-align: center;
+    margin: 0%;
+}
+
+.boton-container {
+    text-align: center;
+    background-color:white;
+    text-transform: lowercase;
+}
+
+.comprar{ 
+    background-color: #fdc9d4;
+    text-shadow: #fdc9d4;
+}
